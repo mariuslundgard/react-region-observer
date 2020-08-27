@@ -1,0 +1,92 @@
+import {ScrollObserverProvider} from 'react-region-observer'
+import React, {useState} from 'react'
+
+export function ScrollExample() {
+  const [scroll, setScroll] = useState({x: 0, y: 0})
+
+  return (
+    <ScrollObserverProvider onChange={setScroll}>
+      <pre>{JSON.stringify(scroll)}</pre>
+      <div>ScrollExample</div>
+      <div>ScrollExample</div>
+      <div>ScrollExample</div>
+      <div>ScrollExample</div>
+      <pre>{JSON.stringify(scroll)}</pre>
+      <div>ScrollExample</div>
+      <div>ScrollExample</div>
+      <div>ScrollExample</div>
+      <div>ScrollExample</div>
+      <pre>{JSON.stringify(scroll)}</pre>
+      <div>ScrollExample</div>
+      <div>ScrollExample</div>
+      <div>ScrollExample</div>
+      <div>ScrollExample</div>
+      <pre>{JSON.stringify(scroll)}</pre>
+      <div>ScrollExample</div>
+      <div>ScrollExample</div>
+      <div>ScrollExample</div>
+      <div>ScrollExample</div>
+      <pre>{JSON.stringify(scroll)}</pre>
+      <div>ScrollExample</div>
+      <div>ScrollExample</div>
+      <div>ScrollExample</div>
+      <div>ScrollExample</div>
+      <pre>{JSON.stringify(scroll)}</pre>
+      <div>ScrollExample</div>
+      <div>ScrollExample</div>
+      <div>ScrollExample</div>
+      <div>ScrollExample</div>
+      <pre>{JSON.stringify(scroll)}</pre>
+      <div>ScrollExample</div>
+      <div>ScrollExample</div>
+      <div>ScrollExample</div>
+      <div>ScrollExample</div>
+      <pre>{JSON.stringify(scroll)}</pre>
+      <div>ScrollExample</div>
+      <div>ScrollExample</div>
+      <div>ScrollExample</div>
+      <div>ScrollExample</div>
+      <pre>{JSON.stringify(scroll)}</pre>
+      <div>ScrollExample</div>
+      <div>ScrollExample</div>
+      <div>ScrollExample</div>
+      <div>ScrollExample</div>
+      <pre>{JSON.stringify(scroll)}</pre>
+      <div>ScrollExample</div>
+      <div>ScrollExample</div>
+      <div>ScrollExample</div>
+      <div>ScrollExample</div>
+      <pre>{JSON.stringify(scroll)}</pre>
+      <div>ScrollExample</div>
+      <div>ScrollExample</div>
+      <div>ScrollExample</div>
+      <div>ScrollExample</div>
+      <pre>{JSON.stringify(scroll)}</pre>
+      <div>ScrollExample</div>
+      <div>ScrollExample</div>
+      <div>ScrollExample</div>
+      <div>ScrollExample</div>
+      <pre>{JSON.stringify(scroll)}</pre>
+      <div>ScrollExample</div>
+      <div>ScrollExample</div>
+      <div>ScrollExample</div>
+      <div>ScrollExample</div>
+      <pre>{JSON.stringify(scroll)}</pre>
+      <div>ScrollExample</div>
+      <div>ScrollExample</div>
+      <div>ScrollExample</div>
+      <div>ScrollExample</div>
+      <pre>{JSON.stringify(scroll)}</pre>
+      <div>ScrollExample</div>
+      <div>ScrollExample</div>
+      <div>ScrollExample</div>
+      <div>ScrollExample</div>
+      <pre>{JSON.stringify(scroll)}</pre>
+      <div>ScrollExample</div>
+      <div>ScrollExample</div>
+      <div>ScrollExample</div>
+      <div>ScrollExample</div>
+      <pre>{JSON.stringify(scroll)}</pre>
+    </ScrollObserverProvider>
+  )
+}

@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./packages",
+    "paths": {
+      "react-region-observer": ["./react-region-observer/src"]
+    },
+    "esModuleInterop": true
+  }
+}
